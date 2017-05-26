@@ -1,0 +1,7 @@
+--require test/test-setup
+--require test/dom-setup
+--require source-map-support/register
+--compilers js:babel-register,css:test/null-exts.js
+
+test/sandbox.js
+src/app/**/*.test.js

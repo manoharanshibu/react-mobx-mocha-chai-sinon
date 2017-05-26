@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: "Roboto", Arial;
+  font-weight: 200;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 100;
+}
+
+#root > .container {
+  text-align: left;
+}
+
+#root > .container header {
+  padding: 5px 20px;
+  background-color: #333333;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+#root .container .main {
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
